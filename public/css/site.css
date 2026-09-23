@@ -1,0 +1,176 @@
+/* OM -- om.lonunjie.org. Shares SeedLife's calm, no-JS, no-web-font base;
+   OM's own voice is the accent blue from the OM UI prototype and the
+   chat-bubble motif. */
+
+:root {
+  --bg: #f6f7f8;
+  --surface: #ffffff;
+  --text: #17191c;
+  --muted: #5f666d;
+  --line: #e3e6e9;
+  --accent: #3569d4;
+  --accent-soft: #e8efff;
+  --incoming: #eceff2;
+  --outgoing: #3569d4;
+  --outgoing-text: #ffffff;
+  --max: 64rem;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111315;
+    --surface: #181b1f;
+    --text: #f2f4f5;
+    --muted: #a0a7ae;
+    --line: #2c3137;
+    --accent: #8bb1ff;
+    --accent-soft: #1e3156;
+    --incoming: #252a30;
+    --outgoing: #2d57ad;
+    --outgoing-text: #ffffff;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 1.0625rem/1.6 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: var(--accent); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 55%, transparent); outline-offset: 2px; border-radius: 6px; }
+
+.skip { position: absolute; left: 1rem; top: -3rem; background: var(--accent); color: #fff; padding: 0.5rem 0.75rem; border-radius: 8px; z-index: 10; }
+.skip:focus { top: 1rem; }
+
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 1rem; }
+
+/* ---- Top bar ---------------------------------------------------------- */
+
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 0; }
+.wordmark { font-weight: 800; font-size: 1.5rem; letter-spacing: -0.04em; color: var(--accent); text-decoration: none; }
+.by { display: inline-flex; align-items: center; gap: 0.45rem; color: var(--muted); text-decoration: none; font-size: 0.9rem; }
+.by svg { width: 1.1rem; height: 1.1rem; fill: currentColor; }
+.by:hover { color: var(--text); }
+
+/* ---- Hero ------------------------------------------------------------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+  padding: clamp(2.5rem, 8vw, 6rem) 0 clamp(3rem, 8vw, 5.5rem);
+}
+
+.status {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  margin: 0 0 1.25rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.85rem; font-weight: 650;
+}
+.status::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: currentColor; }
+
+h1 {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2.4rem, 6.2vw, 4.25rem);
+  font-weight: 780;
+  letter-spacing: -0.04em;
+  line-height: 1.02;
+}
+.lede { margin: 0; font-size: clamp(1.1rem, 2.2vw, 1.3rem); color: var(--muted); max-width: 34rem; }
+
+.chat {
+  display: flex; flex-direction: column; gap: 0.55rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.06);
+}
+.bubble {
+  max-width: 85%;
+  padding: 0.6rem 0.9rem;
+  border-radius: 18px;
+  background: var(--incoming);
+  font-weight: 500;
+  line-height: 1.35;
+}
+.bubble.mine { align-self: flex-end; background: var(--outgoing); color: var(--outgoing-text); border-bottom-right-radius: 6px; }
+.bubble.other { align-self: flex-start; border-bottom-left-radius: 6px; }
+.chat .meta { align-self: flex-end; font-size: 0.75rem; color: var(--muted); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .bubble { animation: appear 340ms ease-out both; }
+  .bubble:nth-child(2) { animation-delay: 220ms; }
+  .bubble:nth-child(3) { animation-delay: 440ms; }
+  .bubble:nth-child(4) { animation-delay: 660ms; }
+  @keyframes appear { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+}
+
+/* ---- Sections --------------------------------------------------------- */
+
+section { padding: clamp(3rem, 7vw, 5rem) 0 0; }
+.eyebrow { margin: 0 0 0.6rem; font-size: 0.8rem; font-weight: 650; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+h2 { margin: 0 0 1.5rem; font-size: clamp(1.7rem, 4vw, 2.4rem); font-weight: 740; letter-spacing: -0.03em; line-height: 1.12; }
+p { margin: 0 0 1em; }
+
+.meanings {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 0.9rem;
+  list-style: none; margin: 0; padding: 0;
+}
+.meanings li { padding: 1.25rem 1.3rem; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
+.meanings h3 { margin: 0 0 0.35rem; font-size: 1.1rem; letter-spacing: -0.015em; }
+.meanings h3 b { color: var(--accent); }
+.meanings p { margin: 0; color: var(--muted); font-size: 0.98rem; }
+
+.gift { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 5vw, 4rem); align-items: start; }
+blockquote {
+  margin: 0;
+  padding: 1.5rem 1.6rem;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 16px 16px 0;
+  background: var(--accent-soft);
+  font-size: clamp(1.2rem, 2.6vw, 1.5rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+.follow { display: flex; flex-wrap: wrap; gap: 0.6rem; list-style: none; margin: 0; padding: 0; }
+.follow a {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  min-height: 44px;
+  padding: 0.6rem 0.95rem;
+  border: 1px solid var(--line); border-radius: 12px;
+  background: var(--surface);
+  color: var(--text); text-decoration: none; font-weight: 500;
+}
+.follow a:hover { border-color: var(--accent); }
+.follow svg { width: 1.15rem; height: 1.15rem; fill: currentColor; }
+
+footer {
+  margin-top: clamp(4rem, 9vw, 6rem);
+  padding: 2rem 0 3rem;
+  border-top: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; justify-content: space-between;
+  font-size: 0.9rem; color: var(--muted);
+}
+footer p { margin: 0; }
+footer a { color: inherit; }
+
+@media (max-width: 760px) {
+  .hero, .gift { grid-template-columns: 1fr; }
+}
