@@ -4,18 +4,18 @@
   "files": [
     {
       "path": ".well-known/security.txt",
-      "sha256": "5615b4326e5a69370c81bea36bfb5875e729fa1f31a713ee9d9b22da593e29ea",
-      "bytes": 291
+      "sha256": "ba00bd2077c9f8f6de8fb4af1f9756fcb159cbaf1e833a627e3877d03bd814a0",
+      "bytes": 370
     },
     {
-      "path": "assets/index-DO4zjiAu.css",
-      "sha256": "970581950d799ae3e3bdebe5cc876b9a46efe3dbab1219b0d3421ae1c6660f6f",
-      "bytes": 29639
+      "path": "assets/index-CW70aBOx.js",
+      "sha256": "7f7ec22dde63ce5b30e323d33c790ed214a3270c1d44f6068628303193d00f45",
+      "bytes": 447763
     },
     {
-      "path": "assets/index-De-0AybO.js",
-      "sha256": "20a4a2d685b0b22c11953c38025f3116af5338fc956bdaef591e046fda77ff7a",
-      "bytes": 446835
+      "path": "assets/index-CWRfmXOF.css",
+      "sha256": "bab5ee9a5af192e629bca2db768d9a10676ccfad69f338a844736ad7729d85da",
+      "bytes": 29844
     },
     {
       "path": "assets/om_wasm-D51jrYLp.wasm",
@@ -59,7 +59,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "2edca2e2ea51fe89e05939d80ca91de5963636586e92cf6b30aca618d48543ee",
+      "sha256": "6d42786788b03c1b101e3e9b0efbe21b76805eb1cd747f583459ae5da3580d04",
       "bytes": 11044
     },
     {
@@ -86,12 +86,12 @@
   "entry": "index.html",
   "serviceWorker": "sw.js",
   "createdFrom": {
-    "gitCommit": "cbb5c1203b22ec241fcf1f5e2c159a7e901843dd"
+    "gitCommit": "5273a12305e3b127dd95bb77e57f2d1d9ed5c06f"
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "om-release-2026-10-28",
-    "sig": "E9B0wouQuOboI9VDSmY/yp259wLhlOaOmpIrnTULY/bBPZSzNJYw7LpGsuKSeCatSgspMibUlgcSMZX3QsDsAw=="
+    "sig": "+awIRiulyECuEdqJUW1PDIEmJm+9KtD3ngz4H6EzXmFME5abKtpgKJnMIsuPCh8C9N0FagJ4wbQAdYCApSDuCw=="
   },
   "delegation": {
     "format": "om.release-delegation/1",
