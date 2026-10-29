@@ -3,14 +3,19 @@
   "version": "0.0.0",
   "files": [
     {
-      "path": "assets/index-BP8WtjQ5.js",
-      "sha256": "3a1e36dc6d0b30f5d95cd07f4d9a3cdc24af4400221a4234e14d894a94282b9f",
-      "bytes": 437935
+      "path": ".well-known/security.txt",
+      "sha256": "5615b4326e5a69370c81bea36bfb5875e729fa1f31a713ee9d9b22da593e29ea",
+      "bytes": 291
     },
     {
-      "path": "assets/index-DMjladkV.css",
-      "sha256": "57ac06bdb551183ee8f5b9d3c08ba283a9c71cbb0716bda8816a0f05c0d06f09",
-      "bytes": 21291
+      "path": "assets/index-DO4zjiAu.css",
+      "sha256": "970581950d799ae3e3bdebe5cc876b9a46efe3dbab1219b0d3421ae1c6660f6f",
+      "bytes": 29639
+    },
+    {
+      "path": "assets/index-DTiYOnAJ.js",
+      "sha256": "af23073c7ff957b39b9d26f2f9b0defa0f288bdd7674efa5d62f410d54f895b0",
+      "bytes": 446319
     },
     {
       "path": "assets/om_wasm-D51jrYLp.wasm",
@@ -48,14 +53,19 @@
       "bytes": 355
     },
     {
+      "path": "icons/social.svg",
+      "sha256": "85218555d4376bfde0ca177b35fc15d95db7835c2bcec2785c624b298da439b4",
+      "bytes": 5733
+    },
+    {
       "path": "index.html",
-      "sha256": "cb6a8e99b407efe4974c1fdd8f7171766a797ed79d23c330b5bcc3c68a928fe9",
-      "bytes": 4862
+      "sha256": "9f86ef3c7e8db13fc64829a4464d3277af5862cb375c94dd7d2bd7b6f7db4006",
+      "bytes": 10954
     },
     {
       "path": "manifest.webmanifest",
-      "sha256": "77d0042cacae413652c91f722d444eed50aefc17c3043c5adc6d6a73f6d0e636",
-      "bytes": 837
+      "sha256": "31b414b2345a3acd62003028dd68a9d63f6c3a4062453ae9d8714f36db375d63",
+      "bytes": 845
     },
     {
       "path": "og-image.png",
@@ -76,12 +86,12 @@
   "entry": "index.html",
   "serviceWorker": "sw.js",
   "createdFrom": {
-    "gitCommit": "222abbfec0f32941df75a5b3a808ffc2543d0420"
+    "gitCommit": "cf2a5c43d7c2f63edb1b7b2e5f1742b953bb3983"
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "om-release-2026-10-28",
-    "sig": "ZXgU0l6mLStbduoTIYoLTaxAyf8K/8HzuPF0TpjoRtTsAPDPGSR8oFypCjpivtvL/z1uhTSLFsTtSiZRUc8ECQ=="
+    "sig": "jblFjJ02W9h98JNVG16G77XuBspCRcoDIIEtvZpj4SGfvOgeq3cLyre7d01cBXUmJIF9XmqJcbVd1Z6/1EZjCg=="
   },
   "delegation": {
     "format": "om.release-delegation/1",
