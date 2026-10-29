@@ -8,14 +8,14 @@
       "bytes": 291
     },
     {
+      "path": "assets/index-DL4JJ3WZ.js",
+      "sha256": "48fb79402f9d907c16f13c9d0bcd3ab80ec67a9e3c587760634913c8e553159f",
+      "bytes": 446840
+    },
+    {
       "path": "assets/index-DO4zjiAu.css",
       "sha256": "970581950d799ae3e3bdebe5cc876b9a46efe3dbab1219b0d3421ae1c6660f6f",
       "bytes": 29639
-    },
-    {
-      "path": "assets/index-DTiYOnAJ.js",
-      "sha256": "af23073c7ff957b39b9d26f2f9b0defa0f288bdd7674efa5d62f410d54f895b0",
-      "bytes": 446319
     },
     {
       "path": "assets/om_wasm-D51jrYLp.wasm",
@@ -59,8 +59,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "9f86ef3c7e8db13fc64829a4464d3277af5862cb375c94dd7d2bd7b6f7db4006",
-      "bytes": 10954
+      "sha256": "c3eafaa1bfa7cd0aedeb5a12ec664cb534c6337db275a9c829d7f0012d3a138a",
+      "bytes": 11049
     },
     {
       "path": "manifest.webmanifest",
@@ -86,12 +86,12 @@
   "entry": "index.html",
   "serviceWorker": "sw.js",
   "createdFrom": {
-    "gitCommit": "cf2a5c43d7c2f63edb1b7b2e5f1742b953bb3983"
+    "gitCommit": "35d564fdf1ee15078697a0c72daf4a702003ea3e"
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "om-release-2026-10-28",
-    "sig": "jblFjJ02W9h98JNVG16G77XuBspCRcoDIIEtvZpj4SGfvOgeq3cLyre7d01cBXUmJIF9XmqJcbVd1Z6/1EZjCg=="
+    "sig": "s+df5m0HCO0IvbK/s8CU6RfrzvtJRZcSbjwjGex5WGHCg5HY42HpNEjnp1QcKuJAUxT6iv//XjsWwQLtTUjgAA=="
   },
   "delegation": {
     "format": "om.release-delegation/1",
