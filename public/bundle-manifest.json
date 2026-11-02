@@ -1,6 +1,6 @@
 {
   "format": "om.web-bundle/1",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "files": [
     {
       "path": ".well-known/security.txt",
@@ -8,14 +8,14 @@
       "bytes": 370
     },
     {
-      "path": "assets/index-Caq5hZ-8.css",
-      "sha256": "80bafa6f64bf5e9e626c2f75e5af45a1df8cf629ba756367cba342062804612d",
-      "bytes": 33472
+      "path": "assets/index-CIWvhCUM.js",
+      "sha256": "7478059fb646093775b6567ec5fa6bd92beb766baf92e65cff98d9df0742ed1b",
+      "bytes": 458176
     },
     {
-      "path": "assets/index-DoqMesYX.js",
-      "sha256": "3b975d7ce3b8a114129dbe492b11d5217e0410adf7f35cdea12ca6d59314f45f",
-      "bytes": 458618
+      "path": "assets/index-KZS1AUQB.css",
+      "sha256": "f7f48a5f84a18fe4dcf81bbdea2830d21a4dfcb6a7eb55b0f3e5753440cf00e8",
+      "bytes": 33589
     },
     {
       "path": "assets/om_wasm-D51jrYLp.wasm",
@@ -59,7 +59,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "abe6e5af831e39f8fc297c317851f8bbecd282c105a71d622064b2225961d914",
+      "sha256": "8623c13d486f6245be06e6e32e701f3df5acc513bc4324f2bd9e200121f27197",
       "bytes": 11044
     },
     {
@@ -79,19 +79,19 @@
     },
     {
       "path": "sw.js",
-      "sha256": "6ddbffcb204a5e3fb2adbc50ed279608e3f3ee2fafd87f79546b76a1b5f977aa",
+      "sha256": "2a04855780a85b1ae569a82501ef9513f180da6438d00ff6f175579d51d73fdf",
       "bytes": 39154
     }
   ],
   "entry": "index.html",
   "serviceWorker": "sw.js",
   "createdFrom": {
-    "gitCommit": "9f2ee29804ce2e7ee9d72f94fed2d870e20f880e"
+    "gitCommit": "30206336f8e9adf46291d809b7127193775ecbc5"
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "om-release-2026-10-28",
-    "sig": "mFBO9FufenWSaD/rJczCsEBnYqDPmYifAqpVrYz5YsDB4fF2WEueYOF2AaKQQ7nfp39WUkqw3SrzNQy/I7RnBg=="
+    "sig": "xcNeyBsjTNACGFikuNTzlBygqlyAhML1xFrp158q0+Y1KAjPacmyjyKZe2aD0BvWVeRmP5Hb6JdOAN2++Nf0Dw=="
   },
   "delegation": {
     "format": "om.release-delegation/1",
