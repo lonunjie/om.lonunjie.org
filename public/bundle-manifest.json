@@ -8,14 +8,14 @@
       "bytes": 370
     },
     {
-      "path": "assets/index-CW70aBOx.js",
-      "sha256": "7f7ec22dde63ce5b30e323d33c790ed214a3270c1d44f6068628303193d00f45",
-      "bytes": 447763
+      "path": "assets/index-BKVP4VYI.js",
+      "sha256": "748fe6b7d7ffc399f4e2a2aff2cedbb6225b459940b6e1a6c019d2e934503ec4",
+      "bytes": 450158
     },
     {
-      "path": "assets/index-CWRfmXOF.css",
-      "sha256": "bab5ee9a5af192e629bca2db768d9a10676ccfad69f338a844736ad7729d85da",
-      "bytes": 29844
+      "path": "assets/index-BuKK-iiu.css",
+      "sha256": "130db583de55f348ec0883478c19a784217a4995d7011f2bd487419e0930004c",
+      "bytes": 32962
     },
     {
       "path": "assets/om_wasm-D51jrYLp.wasm",
@@ -59,7 +59,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "6d42786788b03c1b101e3e9b0efbe21b76805eb1cd747f583459ae5da3580d04",
+      "sha256": "7b8537e61ce857632a490107c02f75f1748bd47d08ae285ecc892c707c762c7d",
       "bytes": 11044
     },
     {
@@ -86,12 +86,12 @@
   "entry": "index.html",
   "serviceWorker": "sw.js",
   "createdFrom": {
-    "gitCommit": "5273a12305e3b127dd95bb77e57f2d1d9ed5c06f"
+    "gitCommit": "e6dfb1f56cf65cf5aad62ead2519b5108f95aa1e"
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "om-release-2026-10-28",
-    "sig": "+awIRiulyECuEdqJUW1PDIEmJm+9KtD3ngz4H6EzXmFME5abKtpgKJnMIsuPCh8C9N0FagJ4wbQAdYCApSDuCw=="
+    "sig": "T5zkRpklX6WWEEz1rZvG2l2Orcdii27DuWuBAq4pq+X2luGnRNUUTLej/uzdfWaHlGCLrf2DuL9HRu1pjfbpAQ=="
   },
   "delegation": {
     "format": "om.release-delegation/1",
