@@ -1,6 +1,6 @@
 {
   "format": "om.web-bundle/1",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "files": [
     {
       "path": ".well-known/security.txt",
@@ -8,19 +8,19 @@
       "bytes": 370
     },
     {
+      "path": "assets/index-Bua4qUMn.js",
+      "sha256": "a520a756bc30ac9ae4d5655bfb4dc038eb0a236aa2b0a70f6a7383ff6c2f13b1",
+      "bytes": 505934
+    },
+    {
       "path": "assets/index-C3R_xhNC.css",
       "sha256": "52dc1b3e8bd1e1bd2c0250c905d99ca085d1069a9e9911a808bf6ae02d274a69",
       "bytes": 51750
     },
     {
-      "path": "assets/index-CwdYSXDP.js",
-      "sha256": "214b692d93a38aef342d5700a635546594921a66f4d0cec0d41e0a0e493bc231",
-      "bytes": 494922
-    },
-    {
-      "path": "assets/om_wasm-D51jrYLp.wasm",
-      "sha256": "0dcc51489db2c8d6c40223bad2cd044a3cd0d2fe158b5a4359c70646f837d604",
-      "bytes": 2785970
+      "path": "assets/om_wasm-1_6oLtl0.wasm",
+      "sha256": "33b11f7eec616d13be8f0de4b6d43994c8608733143a6629688dccb9b41281d3",
+      "bytes": 2902687
     },
     {
       "path": "icons/apple-touch-icon.png",
@@ -59,7 +59,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "28f3819b3a9b282c65a05e9bfc8e4bc0e16aa0979cced129097392cf02965e74",
+      "sha256": "0a0d9e3c4d197433ded85f9650a32b40a2ebdaeb1b61e4c06497f7f093fbc9c9",
       "bytes": 10939
     },
     {
@@ -79,19 +79,19 @@
     },
     {
       "path": "sw.js",
-      "sha256": "16f686349a9469f36f395f7d84b3aecc9df174506967e14b45e05ac6c8cec2ff",
-      "bytes": 39498
+      "sha256": "8d1d479043ec07a98ff37106cc98a4ccd452309fc9df1f41c253e45ce66b1b60",
+      "bytes": 39499
     }
   ],
   "entry": "index.html",
   "serviceWorker": "sw.js",
   "createdFrom": {
-    "gitCommit": "d274fe358e6dcc9a2a06bb09134fea4961a22f03"
+    "gitCommit": "e416f443782446c9d7293caaff5939e5c65d3783"
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "om-release-2026-10-28",
-    "sig": "PTuGtlr7ZiuqcudkLMhEbaqfVQZxPJp2DB4xTghlK87g1f8Sy5U9lZ+qd/Jgf5+vhVelCfB3ns2L8Iq5PSlCDA=="
+    "sig": "WMlOiK+yxy7oLfCI7i0tJVEbNcCJu9tAcGE3zLoC5Mi+z81zZr2Qh4NdXCQmXXrkdSeQoi7UX3dCGlXPpNZgAQ=="
   },
   "delegation": {
     "format": "om.release-delegation/1",
