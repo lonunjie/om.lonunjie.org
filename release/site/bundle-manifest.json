@@ -1,6 +1,6 @@
 {
   "format": "om.web-bundle/1",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "files": [
     {
       "path": ".well-known/security.txt",
@@ -8,14 +8,14 @@
       "bytes": 370
     },
     {
-      "path": "assets/index-BEJRrZ6y.css",
-      "sha256": "5eaae8c1b4b300ca2fb50cf15d54f001ae99df82f2ccd77dd0a4bcd1dc96fc6d",
-      "bytes": 51714
+      "path": "assets/index-C3R_xhNC.css",
+      "sha256": "52dc1b3e8bd1e1bd2c0250c905d99ca085d1069a9e9911a808bf6ae02d274a69",
+      "bytes": 51750
     },
     {
-      "path": "assets/index-DO_Nb7Lm.js",
-      "sha256": "21a9489219a8103c8d40e973a76c0e4d0e1501a85750ab36082fe7e9c0f5212e",
-      "bytes": 489994
+      "path": "assets/index-CPweLl4C.js",
+      "sha256": "61f93bebab136512915ff92418b73f88e36f0430d4d0a18a97eb5ca3d1d34f08",
+      "bytes": 494910
     },
     {
       "path": "assets/om_wasm-D51jrYLp.wasm",
@@ -59,8 +59,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "706614bb0319ac45f7e8aa7ee34ca44b506ebbd2f35e73fe06970f7c771497a1",
-      "bytes": 11041
+      "sha256": "ae09b3f2e4f4c69842b1636e628e607a369a788a73bd775234b510885b327fdf",
+      "bytes": 10939
     },
     {
       "path": "manifest.webmanifest",
@@ -79,19 +79,19 @@
     },
     {
       "path": "sw.js",
-      "sha256": "d1db9d0c443ba938d906af7a48e7be7843a13bd5969616bb177c8226f538a864",
+      "sha256": "f6aa20bfdce39a10eea00b20ef09279a6f9f2081ad49bebe8c997d44f0884ebc",
       "bytes": 39498
     }
   ],
   "entry": "index.html",
   "serviceWorker": "sw.js",
   "createdFrom": {
-    "gitCommit": "a7f57e3ed35be426f5d4c39f0a35e16b37a8c683"
+    "gitCommit": "ab2dd7769f277bb27d8b315d504ae2b931cffe36"
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "om-release-2026-10-28",
-    "sig": "GRGS0cls99HjRclK3j/3faGn+g0e3eFqnVmDT0kFSK1ssdRvSSXWhfa2Cenijf7HD89+RA6f55DK/74hEYWpCg=="
+    "sig": "yiJq72m15h1R6qAMgeVdXn/Dgt+A+kJrlQO5h1GxySZUql+PxPAZeiGNEWWr0ntEUzT/wySHAcfENHtCencUCA=="
   },
   "delegation": {
     "format": "om.release-delegation/1",
