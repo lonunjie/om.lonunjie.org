@@ -1,6 +1,6 @@
 {
   "format": "om.web-bundle/1",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "files": [
     {
       "path": ".well-known/security.txt",
@@ -8,19 +8,19 @@
       "bytes": 370
     },
     {
-      "path": "assets/index-Bua4qUMn.js",
-      "sha256": "a520a756bc30ac9ae4d5655bfb4dc038eb0a236aa2b0a70f6a7383ff6c2f13b1",
-      "bytes": 505934
+      "path": "assets/index-BwBvYc2h.css",
+      "sha256": "d31a328567fb2ce0569b57c4adb0c099ce38760c296b493edb85638e190669b1",
+      "bytes": 59439
     },
     {
-      "path": "assets/index-C3R_xhNC.css",
-      "sha256": "52dc1b3e8bd1e1bd2c0250c905d99ca085d1069a9e9911a808bf6ae02d274a69",
-      "bytes": 51750
+      "path": "assets/index-k9nbZKwn.js",
+      "sha256": "9b76a0106f12c6e38bafcf9097f303fc47b19095c95e540b95675789cd9485cb",
+      "bytes": 566851
     },
     {
-      "path": "assets/om_wasm-1_6oLtl0.wasm",
-      "sha256": "33b11f7eec616d13be8f0de4b6d43994c8608733143a6629688dccb9b41281d3",
-      "bytes": 2902687
+      "path": "assets/om_wasm-BNqDOV4-.wasm",
+      "sha256": "54c3b0a024a80f1e22504650522300c3d84840efa1803ccd5d17f409c212e5d4",
+      "bytes": 3972723
     },
     {
       "path": "icons/apple-touch-icon.png",
@@ -59,7 +59,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "0a0d9e3c4d197433ded85f9650a32b40a2ebdaeb1b61e4c06497f7f093fbc9c9",
+      "sha256": "b8aa5b36043a0d4277abfa6a95d499ef6fbaafe01943b7ef30fe52578762765c",
       "bytes": 10939
     },
     {
@@ -79,19 +79,19 @@
     },
     {
       "path": "sw.js",
-      "sha256": "8d1d479043ec07a98ff37106cc98a4ccd452309fc9df1f41c253e45ce66b1b60",
+      "sha256": "8f8dcc5d19b2ddbd8f56c45e3d43ece90ffc99f5a311e3f5ff971232e19b41e8",
       "bytes": 39499
     }
   ],
   "entry": "index.html",
   "serviceWorker": "sw.js",
   "createdFrom": {
-    "gitCommit": "e416f443782446c9d7293caaff5939e5c65d3783"
+    "gitCommit": "a798d5dae5372f41b4ad358f7240a3c35da26de6"
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "om-release-2026-10-28",
-    "sig": "WMlOiK+yxy7oLfCI7i0tJVEbNcCJu9tAcGE3zLoC5Mi+z81zZr2Qh4NdXCQmXXrkdSeQoi7UX3dCGlXPpNZgAQ=="
+    "sig": "R960wu/+mbCu4y6twlqgFt4MK+AF/r/P9rBPUC7yqBjbcPXcQSGFu+tSfjmZ/rcMAvS2w+gwiU2Fi4gUuuyHCw=="
   },
   "delegation": {
     "format": "om.release-delegation/1",
