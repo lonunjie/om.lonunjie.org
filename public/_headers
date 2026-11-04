@@ -4,4 +4,4 @@
   Referrer-Policy: no-referrer
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
-  Permissions-Policy: geolocation=(), microphone=(), camera=(self), payment=(), usb=()
+  Permissions-Policy: geolocation=(self), microphone=(self), camera=(self), payment=(), usb=()
